@@ -1,3 +1,53 @@
-.venv/
+*.egg-info
+dist/
+.coverage
+coverage.xml
+.pytest_cache/
+*.code-workspace
+.pylintrc
+.codeclimate.yml
+dist/
+trash/
+.coveragerc
+.gitignore
+setup.cfg
+app_0*.py
+index_0*.html
+README (*).*
+ruff.toml
+
+# IDE
+.idea/
+.vscode/
+
+# Compiled files
+*.pyc
 __pycache__/
+
+# Environment files
+# aka_sm
+# .env
+# aka_sm
+.env*
+*.ini
+
+# System files
+*.log
+*.swp
+
+# Temporary files
+*.tmp
+
+# Cache files
+*.cache
+
+# Local databases
+*.db
 db.sqlite3
+
+# Generated documentation
+docs/
+
+# Virtual environments
+.venv/
+env/
